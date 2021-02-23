@@ -40,6 +40,25 @@ project is compiled with with _catkin_.
        
  Note compiling "in-source" is not allowed.      
 
+# ROS2
+## Compilation
+To compile the groot executble in ROS2 workspace:
+
+```
+       cd <your ROS2 packages subdirectory>
+       git clone https://github.com/BehaviorTree/Groot.git
+       colcon build
+```
+
+## Run
+To execute groot from ROS2 workspace
+
+```
+       ros2 run groot Groot
+```
+
+       
+
 # Licence       
 
 Copyright (c) 2018-2019 FUNDACIO EURECAT 
