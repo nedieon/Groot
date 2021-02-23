@@ -42,6 +42,7 @@ project is compiled with with _catkin_.
 
 # ROS2
 ## Compilation
+Note, that you should also have BehaviorTreeCpp installed (as part of the sudo apt install ros-<distro>-...) or as a seperate package in your ROS2 workspace.
 To compile the groot executble in ROS2 workspace:
 
 ```
